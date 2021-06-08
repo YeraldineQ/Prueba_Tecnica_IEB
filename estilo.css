@@ -1,0 +1,100 @@
+.bg-black{
+	background-image: url(img/Fondo.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	height: 500%;
+}
+
+
+
+.estilo-logo{
+	border-radius: 20px;
+    width: 100px;
+}
+
+
+#btn-menu{
+	display: none;
+}
+
+header label{
+	display: none;
+	width: 30px;
+	height: 20px;
+	padding: 30px;
+	border-right: 1px solid #fff;
+}
+
+header label:hover{
+	cursor: pointer;
+	background: rgba(0,0,0,0.3);
+}
+
+.menu ul{
+	margin: -40px;
+	list-style: none;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	background-color: #cf002c;
+}
+
+.menu li{
+	border-right: 1px;
+}
+
+.menu li:hover{
+	background: rgba(0,0,0,0.3);
+}
+
+.menu li a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+
+
+.card-header{
+	color: #fff;
+}
+
+.card-title{
+	background-color: rgba(0,0,0,.03) !important;
+	color: #cf002c;
+	display: flex;
+}
+
+.card-text{
+	color: black;
+	display: flex;
+	text-align: left;
+}
+
+.text2{
+	color: #fff;
+	text-align: left;
+}
+
+
+.btn-light{
+	background: #cf002c;
+	border-color: #cf002c;
+	color: #fff;
+}
+
+.text-card{
+	color: black;
+}
+
+.footer{
+	background: #cf002c;
+	height: 150px;
+}
+
+
+
+
+
+
